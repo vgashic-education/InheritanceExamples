@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceExamples", "InheritanceExamples\InheritanceExamples.csproj", "{815FEFAD-DF9A-4CDA-AE86-673F1D1C0E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionExample", "CompositionExample\CompositionExample.csproj", "{35AFE7BF-DF95-4792-8053-6DB3637B4359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition2Example", "Composition2Example\Composition2Example.csproj", "{E7B48E09-481A-45B8-BE7E-4CCBBCBC5D60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InheritanceComposition", "InheritanceComposition", "{534836AB-47FC-41CA-85AA-C3A123EE6DC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815FEFAD-DF9A-4CDA-AE86-673F1D1C0E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815FEFAD-DF9A-4CDA-AE86-673F1D1C0E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815FEFAD-DF9A-4CDA-AE86-673F1D1C0E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815FEFAD-DF9A-4CDA-AE86-673F1D1C0E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AFE7BF-DF95-4792-8053-6DB3637B4359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AFE7BF-DF95-4792-8053-6DB3637B4359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AFE7BF-DF95-4792-8053-6DB3637B4359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AFE7BF-DF95-4792-8053-6DB3637B4359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B48E09-481A-45B8-BE7E-4CCBBCBC5D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B48E09-481A-45B8-BE7E-4CCBBCBC5D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B48E09-481A-45B8-BE7E-4CCBBCBC5D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B48E09-481A-45B8-BE7E-4CCBBCBC5D60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{815FEFAD-DF9A-4CDA-AE86-673F1D1C0E36} = {534836AB-47FC-41CA-85AA-C3A123EE6DC0}
+		{35AFE7BF-DF95-4792-8053-6DB3637B4359} = {534836AB-47FC-41CA-85AA-C3A123EE6DC0}
+		{E7B48E09-481A-45B8-BE7E-4CCBBCBC5D60} = {534836AB-47FC-41CA-85AA-C3A123EE6DC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C65D2F99-3C22-4950-BBB9-1D3F6FBCE4A4}
+	EndGlobalSection
+EndGlobal
